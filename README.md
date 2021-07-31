@@ -1,3 +1,3 @@
-# actions-sandbox
+# Actions Sandbox
 
 GitHub Actions Sandbox
