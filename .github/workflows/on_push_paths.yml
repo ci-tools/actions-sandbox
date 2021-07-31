@@ -3,7 +3,7 @@ name: OnPushPaths
 on:
   push:
     branches: [ main ]
-    paths: [ "**.md" ]
+    paths-ignore: [ "**.md" ]
 
   pull_request:
     paths-ignore: [ ".git**", "**/.keep" ]
