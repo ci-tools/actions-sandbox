@@ -1,0 +1,16 @@
+name: OnPushPaths
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore: [ ".git**", "**/.keep" ]
+
+  pull_request:
+    paths-ignore: [ ".git**", "**/.keep" ]
+
+jobs:
+  on-push-paths:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo 'executed!'
